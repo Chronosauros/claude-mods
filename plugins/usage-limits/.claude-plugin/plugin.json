@@ -1,0 +1,21 @@
+{
+  "name": "usage-limits",
+  "version": "0.1.0",
+  "description": "Bar above the prompt: how much of your plan limit is left (5 hours and week) and when it resets.",
+  "types": "./types/index.d.ts",
+  "author": {
+    "name": "Chronosaur"
+  },
+  "userConfig": {
+    "language": {
+      "type": "string",
+      "title": "Language",
+      "description": "Interface language: en or pl",
+      "default": "en",
+      "options": [
+        "en",
+        "pl"
+      ]
+    }
+  }
+}

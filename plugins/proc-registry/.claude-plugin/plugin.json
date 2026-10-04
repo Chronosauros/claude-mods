@@ -1,0 +1,21 @@
+{
+  "name": "proc-registry",
+  "version": "0.1.0",
+  "description": "Registry of background processes and subagents: /procs command, Processes panel, counter in the status line.",
+  "types": "./types/index.d.ts",
+  "author": {
+    "name": "Chronosaur"
+  },
+  "userConfig": {
+    "language": {
+      "type": "string",
+      "title": "Language",
+      "description": "Interface language: en or pl",
+      "default": "en",
+      "options": [
+        "en",
+        "pl"
+      ]
+    }
+  }
+}

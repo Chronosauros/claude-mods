@@ -1,0 +1,24 @@
+{
+  "name": "chronosaur-mods",
+  "description": "Claude Code mods: plan usage limits, background process registry, context gauge.",
+  "owner": {
+    "name": "Chronosaur"
+  },
+  "plugins": [
+    {
+      "name": "usage-limits",
+      "source": "./plugins/usage-limits",
+      "description": "Bar above the prompt: how much of your plan limit is left (5 hours and week) and when it resets."
+    },
+    {
+      "name": "proc-registry",
+      "source": "./plugins/proc-registry",
+      "description": "Registry of background processes and subagents: /procs command, Processes panel, counter in the status line."
+    },
+    {
+      "name": "context-weather",
+      "source": "./plugins/context-weather",
+      "description": "Bar above the prompt: context fill, session cost and plan limits, with a warning before compaction."
+    }
+  ]
+}
